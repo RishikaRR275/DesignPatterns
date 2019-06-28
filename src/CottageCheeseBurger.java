@@ -3,7 +3,7 @@ public class CottageCheeseBurger implements Burger{
     CottageCheeseBurger(String size){
         this.size = size;
     }
-    public void prepareBurger(){
-        System.out.println("One "+ size+ " Cottage Cheese Burger coming right up!");
+    public void prepareBurgers(){
+        System.out.println("One "+ size+ " Cottage Cheese Burger coming right up!!!");
     }
 }

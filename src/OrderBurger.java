@@ -9,9 +9,9 @@ public class OrderBurger{
         String burgerType = sc.nextLine();
 
         System.out.println("Please select the size :");
-        String size = sc.next();
+        String burgerSize = sc.next();
 
-        Burger burger1 = burgerFactory.getBurger(burgerType,size);
-        burger1.prepareBurger();
+        Burger burger1 = burgerFactory.getBurger(burgerType,burgerSize);
+        burger1.prepareBurgers();
     }
 }

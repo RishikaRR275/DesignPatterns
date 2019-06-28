@@ -3,7 +3,7 @@ public class ChickenBurger implements Burger{
     ChickenBurger(String size){
         this.size = size;
     }
-    public void prepareBurger(){
-        System.out.println("One "+ size+ " Chicken Burger coming right up!");
+    public void prepareBurgers(){
+        System.out.println("One "+ size+ " Chicken Burger coming right up!!!");
     }
 }

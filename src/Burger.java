@@ -1,4 +1,4 @@
 
 public interface Burger{
-    void prepareBurger();
+    void prepareBurgers();
 }

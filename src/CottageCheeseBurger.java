@@ -1,5 +1,5 @@
 public class CottageCheeseBurger implements Burger{
-    String size;
+    private String size;
     CottageCheeseBurger(String size){
         this.size = size;
     }

@@ -1,5 +1,5 @@
 public class ChickenBurger implements Burger{
-    String size;
+    private String size;
     ChickenBurger(String size){
         this.size = size;
     }

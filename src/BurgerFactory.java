@@ -2,6 +2,7 @@ public class BurgerFactory{
     public Burger getBurger(String burgerType,String size){
         if(burgerType == null)
             return null;
+
         burgerType = burgerType.toLowerCase();
         switch(burgerType){
             case "chicken burger":

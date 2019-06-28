@@ -1,5 +1,5 @@
 public class AlooTikka implements Burger{
-    String size;
+    private String size;
     AlooTikka(String size){
         this.size = size;
     }

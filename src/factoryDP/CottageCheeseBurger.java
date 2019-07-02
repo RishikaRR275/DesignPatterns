@@ -1,3 +1,5 @@
+package factoryDP;
+
 public class CottageCheeseBurger implements Burger{
     private String size;
     CottageCheeseBurger(String size){

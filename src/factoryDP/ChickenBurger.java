@@ -1,3 +1,5 @@
+package factoryDP;
+
 public class ChickenBurger implements Burger{
     private String size;
     ChickenBurger(String size){
